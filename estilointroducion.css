@@ -1,0 +1,81 @@
+body {
+  background-color: #101010;
+  color: #ffffff;
+background-image: url(https://i.pinimg.com/originals/0d/43/25/0d4325b98a291a74f54d1a83dd3f59df.gif);
+   background-size: cover;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.boton-comenzar {
+  background-color: green; /* Color de fondo */
+  border: none; /* Borde sin estilo */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espacio alrededor del texto */
+  text-align: center; /* Centra el texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Ajusta el tamaño al contenido */
+  font-size: 16px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  border-radius: 5px; /* Bordes redondeados */
+}
+.boton-comenzar:hover {
+  background-color: red ; /* Color de fondo oscuro */
+}
+.boton-comenzar:active {
+  background-color:red;
+}
+.maquina-recreativa {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #191919;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.mensaje {
+  margin-bottom: 2em;
+}
+
+.texto-maquina {
+  display: inline-block;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+/* Estilos para la estética ciberpunk y pixel game */
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 2px 2px 10px #ff00ff;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  animation: flicker 1s ease infinite;
+}
+
+.maquina-recreativa {
+  border: 5px solid #00ff00;
+box-shadow: 0 0 1em #00FF00;
+  text-transform: uppercase;
+
+  animation: flicker 1s ease infinite;
+}
+
+
+
+/* Fuente para el texto */
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');

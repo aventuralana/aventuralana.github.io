@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+/* Estilos generales */
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Estilos de la máquina recreativa */
+.maquina-recreativa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(135deg, #111 25%, transparent 25%),
+            linear-gradient(-135deg, #111 25%, transparent 25%),
+            linear-gradient(45deg, #111 25%, transparent 25%),
+            linear-gradient(-45deg, #111 25%, transparent 25%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+}
+
+/* Estilos del mensaje */
+.mensaje {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00;
+}
+
+.mensaje h1 {
+  top: 50px;
+  font-size: 60px;
+  margin: 0;
+}
+
+.mensaje p {
+
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Estilos del botón */
+.boton-comenzar {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+  box-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00;
+}
+
+.boton-comenzar:hover {
+  background-color: #fff;
+  color: #f00;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.boton-comenzar {
+  width: 100px;
+  height: 50px;
+  background-color: #444;
+  border: 2px solid #222;
+  border-radius: 10px;
+  position: relative;
+}
+
+.boton-comenzar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 2px;
+  background-color: #ddd;
+}
+
+.boton-comenzar:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #ddd;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  border-radius: 10px;
+}

@@ -1,0 +1,224 @@
+body {
+  background-color: #191919;
+  background-image: url(https://repository-images.githubusercontent.com/533712036/5da79e70-e677-46c0-95b1-e9af2aca655e);
+  background-size: cover;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+#game-container {
+  animation: fade-to-black 2s ease-in-out; /* La animación dura 2 segundos */
+  background-color: #212121;
+  border-radius: 12px;
+  box-shadow: 0 0 120px rgba(0, 30, 30, 135);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+#game-text {
+  margin-bottom: 10px;
+}
+
+#input-container {
+  display: flex;
+}
+
+#game-input {
+  background-color: #191919;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  flex-grow: 1;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#game-btn {
+  background-color: #ff2b58;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#game-btn:hover {
+  background-color: #c0173d;
+  cursor: pointer;
+}
+
+
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.card {
+  background-color: #212121;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.btn {
+  background-color: #ff2b58;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #c0173d;
+  cursor: pointer;
+}
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 0 0 1em #00FF00;
+}
+
+#game {
+  animation: fade-to-black 2s ease-in-out; /* La animación dura 2 segundos */
+  border: 2px solid #00FF00;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+#game-text {
+  margin: 0;
+}
+
+#game-input {
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  padding: 0.5em;
+  width: 100%;
+}
+
+#game-input:focus {
+  outline: none;
+}
+
+.btn {
+
+  background-color: #00FF00;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn:active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#credits {
+  font-size: 0.75em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+#credits a {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+#credits a:hover {
+  color: #FFFFFF;
+}
+
+
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+.overlay {
+
+  position: fixed;
+
+  width:100%;
+  height:100%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.overlay p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}

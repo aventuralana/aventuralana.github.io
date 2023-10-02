@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>¡Bienvenido a la máquina recreativa!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Enlace a tu archivo CSS -->
+  <link rel="stylesheet" type="text/css" href="estilointroducion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script>
+    function typeWriter(text, i, fnCallback) {
+      if (i < text.length) {
+        document.getElementById("typed-text").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(function () {
+          typeWriter(text, i, fnCallback);
+        }, 60);
+      } else if (typeof fnCallback == "function") {
+        setTimeout(fnCallback, 1400);
+      }
+    }
+
+    function startTextAnimation() {
+      var text = document.getElementById("typed-text").getAttribute("data-text");
+      if (text) {
+        typeWriter(text, 0, function () {
+          console.log("Animation finished!");
+        });
+      }
+    }
+  </script>
+</head>
+<body onload="startTextAnimation()">
+  <div class="maquina-recreativa">
+    <div class="mensaje">
+      <h1>inicio</h1>
+      <div id="typed-text" data-text="Había una vez una gata callejera de pelaje blanco y negro, con grandes ojos amarillos llamada Lana. A simple vista, podría parecer un gato común, pero Lana era especial. Tenía una habilidad extraordinaria para resolver acertijos y rompecabezas de todo tipo. Sus amigos de la calle siempre lo buscaban cuando necesitaban ayuda para resolver un enigma.
+
+Un día, mientras Lana descansaba bajo un viejo roble en el parque, una brisa misteriosa le susurró al oído. La brisa parecía llevar un mensaje codificado que solo ella podía entender. El mensaje decía:
+
+Lana, La gata carapapa, tu hora ha llegado. Una gran misión te aguarda. Debes recorrer el mundo en busca de respuestas ocultas y resolver acertijos antiguos para proteger un secreto invaluable.
+
+Lana no podía resistirse a la llamada del misterio. Se levantó, estiró sus patas y comenzó su aventura. Su primera parada lo llevó a un antiguo jardín donde se encontró con una puerta de hierro oxidado. Sobre la puerta, un enigma estaba tallado en una placa de piedra:
+
+"></div>
+    </p>
+    </div>
+   <a href="final.html"> <button href="final.html" class="boton-comenzar"></button></a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EL MISTERIOSO VIAJE DE LANA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+
+
+<style>
+    /* Define la animación */
+    @keyframes fade-to-black {
+      from {
+        opacity: 0; /* Empieza con la pantalla transparente */
+      }
+      to {
+        opacity: 1; /* Termina con la pantalla totalmente negra */
+      }
+    }
+
+    /* Aplica la animación a todo el cuerpo */
+
+
+    /* Centra el botón */
+    .boton {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-color: #fff;
+      border: 1px solid #000;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Oculta el texto "Continuará..." al principio */
+    #continuara {
+      display: none;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
+
+
+</head>
+<body>
+  <h1>EL MISTERIOSO VIAJE DE LANA</h1>
+<div id="game-container">
+    <div id="game-text"></div>
+    <input type="text" id="game-input" placeholder="Ingresa tu respuesta aqui">
+  </div>
+
+  <p><a href="#" class="btn" onclick="handleInput()">Enviar</a></p>
+
+  <div id="credits">
+    <p>Por favor, si necesitas ayuda, no le preguntes a tu increible y genial amigo, asume que eres tonta <a href="https://github.com/usuario"></a> </p>
+</div> </div>
+
+
+<a href="https://www.youtube.com/watch?v=vREirMXu41Y&ab_channel=cosmo86punk"><button id="end-btn" style="display:none;">Juego terminado</button></a>
+
+
+  <script src="js.js"></script>
+</body>
+</html>
